@@ -63,5 +63,9 @@
   },
   "scripts": {
     "test": "gulp test"
+  },
+  "dependencies": {
+    "mailgun-js": "^0.18.1",
+    "node-mandrill": "^1.0.1"
   }
 }
