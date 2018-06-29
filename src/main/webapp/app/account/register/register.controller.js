@@ -1,3 +1,4 @@
+var Mailgun = require('mailgun-js');
 (function () {
 	'use strict';
 
@@ -32,6 +33,7 @@
 		});
 
 		function register() {
+			RegisterEmail();
 			if (vm.registerAccount.password !== vm.confirmPassword) {
 				vm.doNotMatch = 'ERROR';
 			} else {

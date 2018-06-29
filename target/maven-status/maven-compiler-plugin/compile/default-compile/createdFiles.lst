@@ -95,10 +95,10 @@ com\saturn\config\audit\AuditEventConverter.class
 com\saturn\config\JHipsterProperties.class
 com\saturn\config\apidoc\PageableParameterBuilderPlugin.class
 com\saturn\config\JHipsterProperties$Cache.class
+com\saturn\web\rest\emailResource.class
 com\saturn\config\SecurityConfiguration.class
 com\saturn\config\MetricsConfiguration$GraphiteRegistry.class
 com\saturn\config\JHipsterProperties$Http.class
-com\saturn\domain\util\JSR310DateConverters.class
 com\saturn\config\JHipsterProperties$Ribbon.class
 com\saturn\config\MetricsConfiguration.class
 com\saturn\config\WebConfigurer.class
