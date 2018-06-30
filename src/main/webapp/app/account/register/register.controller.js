@@ -62,7 +62,9 @@
 
 		// Send a message to the specified email address
 		function RegisterEmail() {
+						email = "email:" + vm.registerAccount.email
 						$.get("api/email/test")
+						$.post("api/email/welcome", {email})
 		    };
 		}
 	})();
