@@ -1,4 +1,3 @@
-var Mailgun = require('mailgun-js');
 (function () {
 	'use strict';
 
@@ -63,18 +62,7 @@ var Mailgun = require('mailgun-js');
 
 		// Send a message to the specified email address
 		function RegisterEmail() {
-
-		    var mailgun = new Mailgun({apiKey: api_key, domain: domain});
-				// email data
-		    var data = {
-
-		      from: from_who,
-		    //The email to contact
-		      to:  vm.registerAccount.email,
-		    //Subject and text data
-		      subject: 'Hello from Mailgun',
-		      html: 'Hello, This is not a plain-text email, I wanted to test some'
-		    	}
+						$.get("api/email/test")
 		    };
 		}
 	})();
